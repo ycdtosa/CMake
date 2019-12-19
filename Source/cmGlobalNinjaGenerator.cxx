@@ -809,7 +809,7 @@ bool cmGlobalNinjaGenerator::OpenRulesFileStream()
   // Write comment about this file.
   /* clang-format off */
   *this->RulesFileStream
-    << "# This file contains all the rules used to get the outputs files\n"
+    << "# This file contains all the rules used to get the output files\n"
     << "# built from the input files.\n"
     << "# It is included in the main '" << NINJA_BUILD_FILE << "'.\n\n"
     ;
